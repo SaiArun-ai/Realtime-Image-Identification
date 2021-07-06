@@ -1,0 +1,18 @@
+.Heading{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(31, 100, 100);
+}
+.Heading:hover{
+    animation-name: "Keyed";
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Keyed{
+    10%{
+        background-color: rgb(255, 255, 255);
+    }20%{
+        background-color: darkcyan;
+    }
+}
