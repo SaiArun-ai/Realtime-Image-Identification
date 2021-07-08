@@ -9,11 +9,11 @@
 }
 .ON{
     margin-top:0px;
-    box-shadow:10px 10px 10px 10px aqua;
+    box-shadow:1px 1px 2px 2px aqua;
 }
 .OA{
     margin-top: 0px;
-    box-shadow:10px 10px 10px 10px rgb(231, 187, 240);
+    box-shadow:1px 1px 2px 2px rgb(231, 187, 240);
 }
 #Footer{
     position: fixed;
