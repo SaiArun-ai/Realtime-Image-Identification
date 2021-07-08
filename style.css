@@ -5,14 +5,27 @@
     box-shadow: 10px 10px 10px 10px rgb(31, 100, 100);
 }
 .Heading:hover{
-    animation-name: "Keyed";
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    background-color: blueviolet;
 }
-@keyframes Keyed{
-    10%{
-        background-color: rgb(255, 255, 255);
-    }20%{
-        background-color: darkcyan;
-    }
+.ON{
+    margin-top:0px;
+    box-shadow:10px 10px 10px 10px aqua;
+}
+.OA{
+    margin-top: 0px;
+    box-shadow:10px 10px 10px 10px rgb(231, 187, 240);
+}
+#Footer{
+    position: fixed;
+    bottom:0;
+    background-color: red;
+    width: 100%;
+    margin-bottom:0px;
+    color: white;
+    text-align: center;
+    line-height: 3;
+}
+canvas{
+    margin-top: 150px;
+    box-shadow:10px 10px 10px 10px teal;
 }
